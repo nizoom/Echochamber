@@ -1,0 +1,85 @@
+.inputWrapper{
+   background-color: #14394B;
+   width: 30%;
+   opacity: .9;
+   height: 50%;
+   padding-bottom: 20px;
+   padding-top: 20px;
+   padding-left: 0;
+   padding-right: 0;
+   border-radius: 16px;
+   border-style: solid white;
+   margin:auto;
+  
+}
+
+input[type=text] {
+    border: 2px;
+    padding: 20px 10px;
+    color: black;
+    font-weight: 400;
+   
+  }
+
+ .textfield___label{
+    color: #2D1252 !important;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 3px;
+
+ }
+
+ .error__message{
+    background: -webkit-linear-gradient(45deg, #CF9DDC, white, #89EBCF 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+    font-size: 2em;
+ }
+
+ @media(max-width: 1100px){
+   .inputWrapper{
+     width: 40%;
+   }
+ }
+
+ @media(max-width: 800px){
+   .inputWrapper{
+      width: 70%;
+      font-size: 80%;
+     }
+ }
+
+ @media (max-width: 380px) {
+   .inputWrapper{
+      width: 60%;
+      padding: 15px;
+     
+  } .inputWrapper button{
+      
+   margin-top: 15px;
+   
+  }
+ }
+ @media(max-width: 350px){
+   .inputWrapper{
+      width: 100%;
+      margin: auto;
+      font-size: 70%;
+     }
+
+     .inputWrapper button{
+      
+      margin-top: 15px;
+      
+     }
+ }
+
+ @media(max-width: 330px){
+   .inputWrapper{
+      width: 50%;
+      margin: auto;
+      font-size: 70%;
+     }
+
+ }

@@ -1,0 +1,86 @@
+.tweetDiv{
+    border-radius: 10px;
+    width: 250px;
+    height: 350px;
+    border-style: solid;
+    box-sizing: border-box;
+    background-image: url("../../media/card.png");  
+    background-size: 250px 25em;
+    margin-bottom: 5px;
+    border-color: #9B89A8;
+    margin: 10px;
+    padding: 5px;
+    word-wrap: break-word;
+    padding-right:10px;
+    padding-left: 10px;
+   
+  box-shadow: 0 14px 28px #144B42, 0 10px 10px rgba(0,0,0,0.22);
+  
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+ 
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+
+  .tweetDiv:hover, .hvr-rotate:focus, .hvr-rotate:active {
+    -webkit-transform: rotate(4deg);
+    transform: rotate(4deg);
+  }
+
+
+
+
+
+.tweetDiv p{
+    color: white;
+ 
+}
+
+.tweetText{
+
+    font-family: 'KoHo', sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+.author{
+    position: relative;
+    font-size: large;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  padding-inline-start: 0%;
+  overflow: scroll;
+
+
+}
+
+.container{
+   
+    transition: max-height .7s ease;
+    display: flex;
+    flex-direction: row;
+}
+
+.collapsed{
+
+}
+
+@media(max-width: 550px){
+  .tweetDiv{
+    height: 300px;
+    font-size: 95%;
+  }
+}

@@ -1,0 +1,42 @@
+.cloudBtnWrapper{
+    background: -webkit-linear-gradient(45deg, #CF9DDC, white, #89EBCF 80%);
+    width: 20%;
+    margin: auto;
+
+    opacity: .7;
+ 
+  
+
+  
+    border-radius: 16px;
+ }
+
+ @media(max-width:1300px){
+     .cloudBtnWrapper{
+        width: 35%;
+
+
+     }
+ }
+
+ @media(max-width:1200px){
+    .cloudBtnWrapper{
+      width: 35%;
+
+    }
+}
+
+@media(max-width:1000px){
+    .cloudBtnWrapper{
+        width: 45%;
+
+    }
+}
+
+@media(max-width:550px){
+    .cloudBtnWrapper{
+   margin-top: 30px;
+   width: 100%;
+ 
+    }
+}
